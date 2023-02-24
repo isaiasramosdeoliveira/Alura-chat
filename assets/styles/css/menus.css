@@ -1,0 +1,126 @@
+.menu:nth-child(1) {
+  background: linear-gradient(to bottom, #4F4662, #3C3651);
+  border-right: 1px solid #4F4662;
+}
+
+.menu__options .btns__groups {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: 10px;
+  align-items: center;
+}
+.menu__options .btns__groups .btn:nth-child(1) {
+  background-color: #DB3254;
+}
+.menu__options .btns__groups .btn:nth-child(1) p {
+  color: #F6F6FA;
+  font-weight: 700;
+}
+.menu__options .btns__groups .btn:nth-child(1):hover {
+  background-color: #DB3254;
+}
+.menu__options .btns__groups .btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 65px;
+  transition: all;
+  transition-duration: 200ms;
+}
+.menu__options .btns__groups .btn i,
+.menu__options .btns__groups .btn p {
+  font-size: 1.5em;
+  color: #7468A1;
+}
+.menu__options .btns__groups .btn:hover {
+  box-shadow: 0px 0px 10px #3C3651;
+  background-color: #7468A1;
+}
+.menu__options .btns__groups .btn:hover i {
+  color: #F6F6FA;
+}
+
+.menu:nth-child(2) {
+  overflow-y: auto;
+  background: #3C3651;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  color: #F6F6FA;
+}
+.menu:nth-child(2) .menu__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  height: 65px;
+}
+.menu:nth-child(2) .menu__title + .menu__describe {
+  background-color: #8A7DB3;
+  padding: 6% 4%;
+}
+.menu:nth-child(2) .btns {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.menu:nth-child(2) .menu__describe,
+.menu:nth-child(2) .btn {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0px 40px;
+  padding: 4%;
+  border-radius: 5px;
+}
+.menu:nth-child(2) .btn {
+  cursor: pointer;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 4% 6%;
+  color: #7468A1;
+}
+.menu:nth-child(2) .btn i {
+  font-size: 1.5em;
+}
+.menu:nth-child(2) .btn button {
+  background-color: transparent;
+  border: none;
+  color: #7468A1;
+}
+.menu:nth-child(2) .btn:hover {
+  background-color: #8A7DB3;
+  color: #F6F6FA;
+}
+.menu:nth-child(2) .btn:hover button {
+  cursor: pointer;
+  color: #F6F6FA;
+}
+.menu:nth-child(2) .btns__filter .btn {
+  padding: 2% 6%;
+  margin: -5px 40px;
+}
+.menu:nth-child(2) .btns__filter .btn .btn__ticket {
+  padding: 5%;
+  background-color: #F6F6FA;
+  border-radius: 50px;
+}
+.menu:nth-child(2) .btns__filter .btn .btn__ticket--work {
+  background-color: #6586cf;
+}
+.menu:nth-child(2) .btns__filter .btn .btn__ticket--family {
+  background-color: #33d9dc;
+}
+.menu:nth-child(2) .btns__filter .btn .btn__ticket--parten {
+  background-color: #86c960;
+}
+.menu:nth-child(2) .btns__filter .btn .btn__ticket--sponsors {
+  background-color: #d73599;
+}
+
+/*# sourceMappingURL=menus.css.map */

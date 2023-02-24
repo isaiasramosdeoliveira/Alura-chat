@@ -1,0 +1,16 @@
+@import "./menus.scss";
+@import "./content.scss";
+@import "./paleta.scss";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 5fr;
+    overflow: hidden;
+}
+

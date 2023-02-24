@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messages</title>
+    <link rel="stylesheet" href="assets/styles/css/global.css" />
+    <link rel="stylesheet" href="assets/styles/fontawesome/css/all.css" />
+  </head>
+  <body>
+    <aside class="menu menu__options">
+      <ul class="btns btns__groups">
+        <li class="btn btn__user">
+          <p>E</p>
+        </li>
+        <li class="btn">
+          <i class="fa-solid fa-clock-rotate-left"></i>
+        </li>
+        <li class="btn">
+          <i class="fa-regular fa-calendar-check"></i>
+        </li>
+        <li class="btn">
+          <i class="fa-solid fa-users"></i>
+        </li>
+        <li class="btn">
+          <i class="fa-solid fa-envelope"></i>
+        </li>
+        <li class="btn">
+          <i class="fa-solid fa-lightbulb"></i>
+        </li>
+        <li class="btn">
+          <i class="fa-solid fa-gear"></i>
+        </li>
+      </ul>
+    </aside>
+    <aside class="menu menu__filters">
+      <h1 class="menu__title">Messages</h1>
+      <h2 class="menu__describe">New Messages</h2>
+      <div class="btns btns__box">
+        <div class="btn">
+          <i class="fa-solid fa-circle-down"></i>
+          <button>Inbox</button>
+        </div>
+        <div class="btn">
+          <i class="fa-solid fa-circle-up"></i>
+          <button>Outbox</button>
+        </div>
+        <div class="btn">
+          <i class="fa-solid fa-box-archive"></i>
+          <button>Archive</button>
+        </div>
+        <div class="btn">
+          <i class="fa-solid fa-user-group"></i>
+          <button>Group</button>
+        </div>
+      </div>
+      <h2 class="menu__describe">Filter by Label</h2>
+      <div class="btns btns__filter">
+        <div class="btn">
+          <span class="btn__ticket btn__ticket--all"> </span>
+          <button>All</button>
+        </div>
+        <div class="btn">
+          <span class="btn__ticket btn__ticket--work"> </span>
+          <button>Work</button>
+        </div>
+        <div class="btn">
+          <span class="btn__ticket btn__ticket--family"> </span>
+          <button>Family</button>
+        </div>
+        <div class="btn">
+          <span class="btn__ticket btn__ticket--parten"> </span>
+          <button>Partner</button>
+        </div>
+        <div class="btn">
+          <span class="btn__ticket btn__ticket--sponsors"> </span>
+          <button>Sponsors</button>
+        </div>
+      </div>
+    </aside>
+    <main class="content">
+      <header>
+        <nav class="navbar">
+          <input class="seach" placeholder="        SEACH" type="text" name="seachContent" id="seachContent"/>
+          <ul class="btns">
+            <li class="btn btn__event">
+                <button>CREATE NEW EVENT</button>
+            </li>
+            <li class="btn btn__value">
+                <p>Revenue</p>
+                <span>$ 15.000.00</span>
+            </li>
+            <li class="btn btn__profile">
+                <i class="fa-solid fa-bell"></i>
+                <img src="./assets/img/profile-pic.png" alt="foto de perfil">
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="container">
+        <div class="chat chat__friends">
+            <input class="seach" placeholder="       seach chat..." type="text" name="seachContent" id="seachContent"/>
+          <ul class="chat__messagens">
+            <li class="message">
+                <span class="img"></span>
+                <div class="describe">
+                    <h4>Name</h4>
+                    <p>Message</p>
+                </div>
+                <div class="status">
+                    <span class="status__time">14:00 PM</span>
+                    <span class="notification">2</span>
+                </div>
+            </li>
+            <li class="message">
+                <span class="img"></span>
+                <div class="describe">
+                    <h4>Name</h4>
+                    <p>Message</p>
+                </div>
+                <div class="status">
+                    <span class="status__time">14:00 PM</span>
+                    <span class="notification">2</span>
+                </div>
+            </li>
+            <li>
+                <span class="img"></span>
+                <div class="describe">
+                    <h4>Name</h4>
+                    <p>Message</p>
+                </div>
+                <div class="status">
+                    <span class="status__time">14:00 PM</span>
+                    <span class="notification">2</span>
+                </div>
+            </li>
+            <li>
+                <span class="img"></span>
+                <div class="describe">
+                    <h4>Name</h4>
+                    <p>Message</p>
+                </div>
+                <div class="status">
+                    <span class="status__time">14:00 PM</span>
+                    <span class="notification">2</span>
+                </div>
+            </li>
+            <li>
+                <span class="img"></span>
+                <div class="describe">
+                    <h4>Name</h4>
+                    <p>Message</p>
+                </div>
+                <div class="status">
+                    <span class="status__time">14:00 PM</span>
+                    <span class="notification">2</span>
+                </div>
+            </li>
+          </ul>
+        </div>
+        <div class="chat">
+          <nav class="nav">
+            <ul class="nav__actions">
+              <li class="action">
+                <i class="fa-solid fa-user-plus"></i>
+                <p>Add people</p>
+              </li>
+              <li class="action">
+                <i class="fa-solid fa-phone"></i>
+                <p>Make call</p>
+              </li>
+            </ul>
+            <span>...</span>
+          </nav>
+          <ul class="nav__messagens">
+            <li class="conversation ">
+              <div class="response">
+                <p>Oii, como você está???</p>
+                <span class="time">00:00 AM</span>
+              </div>
+            </li>
+            <li class="conversation ">
+              <span class="img"></span>
+              <div class="sent">
+                <p>Bem.</p>
+                <span class="time">00:00 AM</span>
+              </div>
+            </li>
+          </ul>
+          <div class="camp">
+            <input type="text" placeholder="type here..." name="message" id="message">
+            <button>Send</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
