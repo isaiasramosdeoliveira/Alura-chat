@@ -4,4 +4,3 @@
 
 > Ainda está a faltando a responsividade e as funcionalidades.<p>
 <a href="https://templatechat.netlify.app">Link</a>
-.
